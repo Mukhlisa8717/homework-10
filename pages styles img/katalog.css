@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    margin: 0 auto;
+    width: 1300px;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+/* :root{
+    --border: 1px solid;
+} */
+
+nav{
+    width: 1300px;
+    height: 80px;
+    border: var(--border);
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+}
+.logo{
+    width: 190px;
+    height: 100%;
+    border: var(--border);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.navigation{
+    width: 450px;
+    height: 100%;
+    border: var(--border);
+    display: flex;
+    justify-content: end;
+}
+
+.nav-list{
+    width: 450px;
+    height: 100%;
+    border: var(--border);
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    color: #122947;
+}
+
+.paginations{
+    text-decoration: none;
+    color: #122947;
+}
+
+.icons{
+    width: 25%;
+    height: 100%;
+    border: var(--border);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.katalog{
+    width: 100%;
+    height: 1200px;
+    border: var(--border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.katalog-cont{
+    width: 90%;
+    height: 95%;
+    border: var(--border);
+}
+
+.katalog-top{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 760px;
+}
+
+.katalog-title{
+    font-family: 'Raleway', sans-serif;
+}
+
+.button-small{
+    height: 30px;
+    width: 100px;
+    color: #122947;
+    background: none;
+}
